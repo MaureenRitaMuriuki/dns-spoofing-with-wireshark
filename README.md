@@ -44,6 +44,14 @@ ping example.com
 -Observe in Wireshark how the DNS query for example.com resolves to the IP address of your Kali machine (DNS spoofing in action).
 ### 4. Verifying the Attack
 In Wireshark, look for DNS responses and verify that example.com resolves to the spoofed IP address.
+### ## Screenshots
+
+### Bettercap running
+![Bettercap Setup](./screenshots/bettercap-setup.png)
+
+### Wireshark DNS spoof capture
+![Wireshark DNS Spoof](./screenshots/wireshark-capture.png)
+
 ### 5. Conclusion
 This demonstrates how DNS spoofing can redirect traffic to an attacker-controlled IP. Wireshark helps visualize the traffic, making it easier to undersatnd teh attack
 
